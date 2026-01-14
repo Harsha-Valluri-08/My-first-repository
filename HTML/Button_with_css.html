@@ -1,12 +1,16 @@
 <style>
     .subscribe {
         background-color: red;
-        border-radius: 10px;
+        border-radius: 7px;
         border-width: 1px;
         color: black;
         margin-right: 10px;
         border-style: solid;
         cursor: pointer;
+        transition: background-color 1s;
+    }.subscribe:hover{
+        background-color: darkred;
+        border-radius: 20px;
     }
     .like{
         background-color: rgb(238, 230, 230);
@@ -17,6 +21,11 @@
         margin-right: 10px;
         color: rgb(230, 40, 40);
         cursor: pointer;
+        transition: background-color 1s;
+    }.like:hover{
+        background-color:blue;
+        color: white;
+        border-radius: 20px;
     }
     .new{
         background-color: rgb(15, 15, 233);
@@ -108,7 +117,16 @@
         width: 80px;
         font-weight: bold;
     }
-</style>
+    .Me{    
+        background-color: rgb(138, 238, 24);
+        color :rgb(20, 16, 10);
+        border-radius: 10px;   
+        border-width:1px;
+        border-style: solid;
+        border-color: rgb(143, 95, 41);
+        font-style: bolder;
+    }
+    </style>
 <button class="subscribe">
     SUBSCRIBE
 </button>
@@ -156,4 +174,14 @@
 <hr>
 <button class="save">
     Save
+</button>
+<br>
+<hr>
+<button class="Me">
+    Harsha
+</button>
+<hr>
+<br>
+<button class="Me">
+    Valluri
 </button>
