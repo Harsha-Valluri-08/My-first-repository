@@ -1,16 +1,21 @@
 <style>
     .subscribe {
         background-color: red;
-        border-radius: 7px;
+        border-radius: 20px;
         border-width: 1px;
         color: black;
         margin-right: 10px;
+        border-color:red;
         border-style: solid;
         cursor: pointer;
-        transition: background-color 1s;
+        transition: background-color 1s,border-radius 0.8s,box-shadow 0.5s,color 0.5s,border-color 0.5s;
     }.subscribe:hover{
-        background-color: darkred;
-        border-radius: 20px;
+        background-color: black;
+        color:red;
+        border-color:black;
+        box-shadow: 4px 4px 2px rgba(0,0,0,0.8);
+    }.subscribe:active{
+        color:rgba(255,0,0,0.5);
     }
     .like{
         background-color: rgb(238, 230, 230);
@@ -21,6 +26,15 @@
         margin-right: 10px;
         color: rgb(230, 40, 40);
         cursor: pointer;
+        transition: background-color 0.5s,color 0.5s,box-shadow 0.5s;
+    }
+    .like:hover{
+        background-color: rgb(230, 40, 40);
+        color: rgb(238, 230, 230);
+        box-shadow: -4px 4px 2px rgba(0,0,0,0.8);
+    }
+    .like:active{
+        color: rgba(238, 230, 230,0.5);
     }
     .new{
         background-color: rgb(15, 15, 233);
@@ -29,11 +43,23 @@
         border-width: 1px;
         border-style: solid;
         border-color: rgb(238, 238, 248);
-        width:70px;
-        height:30px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:5px;
+        padding-bottom:5px;
         cursor: pointer;
         font-weight: bold;
         font-size: 16px;
+        transition:box-shadow 0.5s, border-color 0.5s, color 0.5s, background-color 0.5s;
+    }
+    .new:hover{
+        box-shadow: -5px -5px 2px rgba(0,0,0,0.8);
+        border-color: whitesmoke;
+        color: black;
+        background-color: #e8e4e9;
+    }
+    .new:active{
+        color: rgba(0,0,0,0.2);
     }
     .different{
         border-radius: 4px;
@@ -41,8 +67,10 @@
         background-color: rgb(46, 164, 79);
         color: whitesmoke;
         border-color: rgb(46, 164, 79);
-        height: 30px;
-        width: 85px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:5px;
+        padding-bottom:5px;
         border-style: solid;
         font-weight: bold;
         margin-bottom: 10px;
@@ -54,19 +82,34 @@
         border-width:1px;
         border-color:black;
         border-style: solid;
-        height: 30px;
-        width: 100px;
+        padding-left:12px;
+        padding-right:12px;
+        padding-top:8px;
+        padding-bottom:8px;
         margin-bottom:10px;
+        cursor: pointer;
+        transition: background-color 0.5s,color 0.5s,border-color 0.5s,box-shadow 0.5s;
+    }
+    .another:hover{
+        background-color:beige;
+        color:black;
+        border-color:beige;
+        box-shadow: 4px -4px 3px rgb(0,0,0);
+    }
+    .another:active{
+        color: rgba(0,0,0,0.5);
     }
     .cart{
         border-style: solid;
         border-width: 1px;
         background-color: rgb(255,216,20);
         color:black;
-        width: 150px;
+        padding-left:30px;
+        padding-right:30px;
+        padding-top:5px;
+        padding-bottom:5px;
         border-radius: 20px;
         border-color: rgb(255,216,20);
-        height: 30px;
     }
     .Get{
         background-color: rgb(127,82,179);
@@ -76,8 +119,10 @@
         border-width: 1px;
         border-color: rgb(127,82,179);
         border-style: solid;
-        height: 40px;
-        width: 100px;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:10px;
+        padding-bottom:10px;
 
     }
     .dow{
@@ -85,8 +130,10 @@
         font-weight: bold;
         border-color: rgb(108,117,125);
         color: rgb(108,117,125);
-        height: 40px;
-        width: 100px;
+        padding-left:18px;
+        padding-right:18px;
+        padding-top:10px;
+        padding-bottom:10px;
         border-radius: 5px;
         border-style: solid;
         border-width: 1px;
@@ -99,8 +146,10 @@
         color: white;
         border-style: solid;
         font-weight: bold;
-        height: 40px;
-        width: 210px;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:8px;
+        padding-bottom:8px;
     }
     .save{
         background-color: white;
@@ -109,8 +158,10 @@
         border-width: 1px;
         border-style: solid;
         border-color: rgb(10,102,194);
-        height : 40px;
-        width: 80px;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:10px;
+        padding-bottom:10px;
         font-weight: bold;
     }
     .Me{    
@@ -121,6 +172,13 @@
         border-style: solid;
         border-color: rgb(143, 95, 41);
         font-style: bolder;
+    }
+    .revise{
+        background-color: red;
+        border-radius:7px;
+        border-width: 1px;
+        border-style: solid;
+
     }
     </style>
 <button class="subscribe">
@@ -177,7 +235,10 @@
     Harsha
 </button>
 <hr>
-<br>
 <button class="Me">
     Valluri
+</button>
+<hr>
+<button class="revise">
+    SUBSCRIBE 
 </button>
