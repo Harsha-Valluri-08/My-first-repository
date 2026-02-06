@@ -1,0 +1,48 @@
+.tahoma{
+        font-family : Tahoma;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .Arial{
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .Verdana{
+        font-family: Verdana;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    button{
+        background-color:rgb(133, 109, 1);
+        color:white;
+        border-radius: 5px;   
+        border-style: solid;    
+        border-width: 1px;
+        border-color: rgb(133, 109, 1);
+        padding-top: 4px;
+        padding-bottom: 4px;
+        cursor: pointer;
+        transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+        box-shadow: 3px 3px 2px rgba(0,0,0,0.3);
+    }
+    button:hover{
+        color:rgb(133, 109, 1);
+        background-color:white;
+        border-color: rgb(133, 109, 1);
+    }
+    .buy{
+        border-radius: 20px;
+        font-weight: bold;
+        background-color: royalblue;
+        color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: royalblue;
+        padding-left: 10px;
+        padding-right: 10px;
+    }

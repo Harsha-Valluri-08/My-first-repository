@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid practice section 2</title>
+        <style>
+            .main-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                font-family: arial;
+                column-gap: 10px;
+            }
+            .sub-container{
+                box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+            }
+            .profile{
+                width: 100%;
+                object-fit: cover;
+            }
+            .icon{
+                width: 25px;
+                height: 25px;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+            button{
+                color: white;
+                background-color: rgb(130, 130, 209);
+                padding-left: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 20px;
+                border: none;
+                margin-left: 5px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+            .small-grid{
+                display: grid;
+                grid-template-columns: 20px 1fr;
+                column-gap: 10px;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="sub-container">
+                <div>
+                    <img class="profile"src="/HTML/images/dragon-ball.jpg" alt="">
+                </div>
+                <div>
+                    <p style="font-weight: bold; padding-left: 5px; margin-top: 10px; margin-bottom: 10px;">
+                        Harsha
+                    </p>
+                    <div class="small-grid">
+                        <img class="icon" src="/HTML/images/leveling.jpg" alt="">
+                        <p style="font-size: 12px; display: inline-block; color: red;">2 mutual friends</p>
+                    </div>
+                    <button>
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+
+            <div class="sub-container">
+                <div>
+                    <img class="profile"src="/HTML/images/leveling.jpg" alt="">
+                </div>
+                <div>
+                    <p style="font-weight: bold; padding-left: 5px; margin-top: 10px; margin-bottom: 10px;">
+                        Valluri
+                    </p>
+                    <div class="small-grid">
+                        <img class="icon" src="/HTML/images/dragon-ball.jpg" alt="">
+                        <p style="font-size: 12px; color: red;">2 mutual friends</p>
+                    </div>
+                    <button>
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+
+            <div class="sub-container">
+                <div>
+                    <img class="profile"src="/HTML/images/dragon-ball.jpg" alt="">
+                </div>
+                <div>
+                    <p style="font-weight: bold; padding-left: 5px; margin-top: 10px; margin-bottom: 10px;">
+                        Harsha
+                    </p>
+                    <div class="small-grid">
+                        <img class="icon" src="/HTML/images/leveling.jpg" alt="">
+                        <p style="font-size: 12px; display: inline-block; color: red;">2 mutual friends</p>
+                    </div>
+                    <button>
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

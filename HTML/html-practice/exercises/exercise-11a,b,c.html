@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid practice section 1</title>
+    <style>
+        .container1{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .one{
+            background-color: lightblue;
+        }
+        .two{
+            background-color: pink;
+        }
+        .container2{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .three{
+            background-color: pink;
+        }
+        .four{
+            background-color: lightblue;
+        }
+        .five{
+            background-color: pink;
+        }
+        .container3{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        .six{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <p class="one">200px</p>
+        <p class="two">75px</p>
+    </div>
+    <div class="container2">
+        <p class="three">col1</p>
+        <p class="four">col2</p>
+        <p class="five">col3</p>
+    </div>
+    <div class="container3">
+        <p class="six">col1</p>
+        <p class="six">col2</p>
+        <p class="six">col3</p>
+        <p class="six">col4</p>
+        <p class="six">col1</p>
+        <p class="six">col2</p>
+        <p class="six">col3</p>
+        <p class="six">col4</p>
+
+    </div>
+</body>
+</html>

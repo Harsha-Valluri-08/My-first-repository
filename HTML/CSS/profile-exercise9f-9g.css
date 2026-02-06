@@ -1,0 +1,35 @@
+            div{
+                display: inline-block;
+                width: 200px;
+                font-family: arial;
+                border-radius: 3px;
+                box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+                margin-left: 10px;
+                border: none;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: top;
+            }
+            span{
+                display: block;
+                font-weight: bolder;
+                font-size: 18px;
+            }
+            button{
+                background-color: blueviolet;
+                color: white;
+                margin-left: 5px;
+                margin-bottom: 3px;
+                border: none;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border-radius: 5px;
+            }
+            p{
+                margin-left: 5px;
+            }

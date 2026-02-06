@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uber</title>
+        <style>
+        body{
+            text-align: center;
+            font-family: arial;
+        }
+        input{
+            width: 300px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: rgb(236, 228, 228);
+            border: none;
+        }
+        .uber-call{
+            background-color: black;
+            color: white;
+            border: none;
+            padding-left: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 18px;
+            cursor: pointer;
+            transition: background-color 1s, color 1s, margin-top 1s, margin-top 1s;
+        }
+        .uber-call:hover{ 
+            background-color: rgb(236, 228, 228);;
+            color: black;
+            margin-top: 5px;
+        }
+        .schedule-call{
+            background-color: rgb(236, 228, 228);
+            color: black;
+            border: none;
+            padding-left: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 18px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: color 1s, background-color 1s;
+        }
+        .schedule-call:hover{
+            background-color: black;
+            color: rgb(236, 228, 228);
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Request a ride now</h1>
+        <input type="text" placeholder="Enter pickup location">
+        <br>
+        <input type="text" placeholder="Enter destination">
+        <br>
+        <button class="uber-call">
+            Request now
+        </button>
+        <button class="schedule-call">
+            Schedule for later
+        </button>
+    </body>
+</html>

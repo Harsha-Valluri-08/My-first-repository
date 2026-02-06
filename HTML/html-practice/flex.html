@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex box practice</title>
+        <style>
+            .main-container{
+                display: flex;
+                flex-direction: row;
+            }
+            div{
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <div style="background-color: lightblue">div 1 <p>text</p></div>
+            <div style="background-color: pink">div 2</div>
+        </div>
+
+        <div class="main-container">
+            <div style="background-color: lightblue; flex: 1;">flex 1</div>
+            <div style="background-color: pink; width: 100px">100px</div>
+            <div style="background-color: lightblue;flex: 2;">flex 2</div>
+        </div>
+
+        <div class="main-container" style="
+                height: 60px;
+                border-width: 1px;
+                border-color:red;
+                border-style: solid;
+                justify-content: center;
+                ">
+            <div style="background-color: lightblue; width: 100px;">flex 1</div>
+            <div style="background-color: pink; width: 100px">100px</div>
+            <div style="background-color: lightblue;width: 100px;">flex 2</div>
+        </div>
+        <div class="main-container" style="
+                height: 60px;
+                border-width: 1px;
+                border-color:red;
+                border-style: solid;
+                justify-content: space-between;
+                align-items: center;
+                ">
+            <div style="background-color: lightblue; width: 100px;">flex 1</div>
+            <div style="background-color: pink; width: 100px">100px</div>
+            <div style="background-color: lightblue;width: 100px;">flex 2</div>
+        </div>
+
+    </body>
+</html>
