@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Something new with flex box</title>
+    <style>
+        .Main-container {
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+            font-family: arial;
+            border-radius: 10px;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .mess {
+            padding-left: 4px;
+        }
+
+        .count {
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size : 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Main-container">
+        <div class="container">
+            <p class="mess">Home</p>
+            <p class="count">14</p>
+        </div>
+        <div class="container">
+            <p class="mess">Notifications</p>
+            <p class="count">3</p>
+        </div>
+        <div class="container">
+            <p class="mess">Messages</p>
+            <p class="count">5</p>
+        </div>
+    </div>
+</body>
+
+</html>
