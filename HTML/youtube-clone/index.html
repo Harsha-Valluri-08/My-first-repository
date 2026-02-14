@@ -2,70 +2,32 @@
 <html>
       <head>
         <title>Youtube clone</title>
-        <style>
-            .header{
-                display: flex;
-                justify-content: space-between;
-                margin-bottom: 30px;
-                align-items: end;
-            }
-            .left-section{
-                width: 200px;
-                background-color: pink;
-            }
-            .middle-section{
-                flex: 1;
-                margin-left: 50px;
-                margin-right: 40px;
-                max-width: 500px;
-            }
-            .right-section{
-                width: 200px;
-                background-color: pink;
-            }
-            div{
-                font-family: arial;
-            }
-            .thumbnail{
-                width: 100%;
-                margin-bottom: 8px;
-                border-radius: 10px;
-            }
-            .channel-profile-container{
-                vertical-align: top;
-                margin-right: 5px;
-            }
-            .channel-profile{
-                object-fit: cover;
-                width: 50px;
-                height: 50px;
-                border-radius: 100px;
-            }
-            .video-info{
-                margin-top: 0px;
-                font-weight: bold;
-            }
-            .video-info-details{
-                font-size: 13px;
-            }
-            .video-details{
-                display: grid;
-                grid-template-columns: 50px 1fr;
-                column-gap: 10px;
-            }
-            .Main-container{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                row-gap: 40px;
-                column-gap: 50px;
-            }
-        </style>
+        <link rel="stylesheet" href="body.css">
+        <link rel="stylesheet" href="header.css">
     </head>
     <body>
         <div class="header">
-            <div class="left-section">left</div>
-            <input class="middle-section" type="text" placeholder="search">
-            <div class="right-section">right</div>
+            <div class="left-section">
+                <img src="/HTML/images/hamburger-menu.svg" alt="" class="hambuger">
+                <img src="/HTML/images/youtube-logo.svg" alt="" class="youtube-logo">
+            </div>
+            <div class="middle-section">
+                <input type="text" placeholder="search"><img src="/HTML/images/search.svg" class="search" alt="">
+                <button>
+                    <img src="/HTML/images/voice-search-icon.svg" class="voice" alt="">
+                </button>
+            </div>
+            <div class="right-section">
+                <button>
+                    <img src="/HTML/images/upload.svg" alt="" class="upload">
+                </button>
+                <button>
+                    <img src="/HTML/images/youtube-apps.svg" class="apps" alt="">
+                </button>
+                <button>
+                    <img src="/HTML/images/notifications.svg" class="notifi" alt="">
+                </button>
+            </div>
         </div>
 
         <div class="Main-container">
