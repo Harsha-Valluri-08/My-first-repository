@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flex</title>
+    <style>
+      .flex-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      #one{
+        background-color: pink;
+        width: 100px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #two{
+        background-color: lightblue;
+        width: 200px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      span{
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div id="one"><span>item 1</span></div>
+      <div id="two"><span>item 2</span></div>
+    </div>
+  </body>
+</html>

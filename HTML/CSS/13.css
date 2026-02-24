@@ -1,0 +1,47 @@
+    .box{
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      width: 310px;
+      display: inline-block;
+    }
+    div{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .line00{
+      font-size: 12px;
+    }
+    .profile{
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+    .line0{
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    .line1{
+      font-size: 14px;
+      font-weight: bold;
+      color: gray;
+    }
+    p{
+      margin: 0;
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .line2{
+      font-size: 13px;
+      color: gray;
+    }
+    span{
+      font-size: 10px;
+      color: gray;
+      margin-left: 50px;
+    }

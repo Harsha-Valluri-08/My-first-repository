@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position exercise</title>
+    <link rel="icon" href="/HTML/images/search.svg">
+    <style>
+      .p1{
+        position: fixed;
+        background-color: black;
+        color: white;
+        bottom: 20px;
+        left: 50px;
+        
+      }
+      .new{
+        position: fixed;
+        background-color: green;
+        color: white;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding-right: 20px;
+      }
+      .new1{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .modal{
+        background-color: rgb(230, 229, 229);
+        width: 300px;
+        border-radius: 5px;
+        padding: 15px;
+        font-family: arial;
+        line-height:35px;
+      }
+      p{
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body style="
+  padding-bottom: 20000px; 
+  ">
+    <div class="p1">
+    <p>bottom-right</p>
+    </div>
+    <div class="new">
+      right sidebar
+    </div>
+
+    <div class="new1">
+      <div class="modal">
+        <p style="font-weight: bold; font-size: 24px;">Modal Title</p>
+        <p>This is a modal</p>
+        <button>Close</button> 
+      </div>
+    </div>
+  </body>
+</html>

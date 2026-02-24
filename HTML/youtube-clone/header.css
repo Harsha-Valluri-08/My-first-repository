@@ -5,6 +5,12 @@
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;    
+    right: 0;
 }
 .left-section{
     width: 250px;
@@ -47,6 +53,7 @@ input{
     border-radius: 20px;
     background-color: rgb(255, 240, 240);
     padding: 10px;
+    flex-shrink: 0;
 }
 button{
     background-color: transparent;
