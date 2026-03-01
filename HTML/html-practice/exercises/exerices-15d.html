@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position</title>
+    <style>
+      body{
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .box{
+        position: relative;
+        height: 180px;
+        width: 320px;
+        background-color: gray;
+      }
+      button{
+        position: absolute;
+        background-color: black;
+        color: white;
+        height: 45px;
+        width: 45px;
+        font-size: 20px;
+        border-radius: 23px;
+        border: none;
+        top: -25px;
+        left: -10px;
+      }
+      .time{
+        position: absolute;
+        bottom: 9px;
+        right: 8px;
+        background-color: black;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div><button>x</button></div>
+      <div class="time">12:00</div>
+    </div>   
+  </body>
+</html>

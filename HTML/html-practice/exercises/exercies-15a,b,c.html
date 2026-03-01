@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position property</title>
+    <style>
+      .tiny_one{
+        position: absolute;
+        right: 20px;
+        top: 5px;
+      }
+      .box{
+        position: relative;
+      }
+      button{
+        background-color: black;
+        color: white;
+        font-family: arial;
+        border: none;
+        border-radius: 23px;
+        width : 45px;
+        height: 45px;
+        font-size: 22px;
+      }
+      .box2{
+        position: fixed;
+        height: 180px;
+        width: 320px;
+        background-color: gray;
+        bottom: 25px;
+        right: 10px;
+      }
+      .box3{
+        position: relative;
+        height: 180px;
+        width: 320px;
+        background-color: gray;
+        margin-left: 100px;
+        margin-top: 50px;
+      }
+      .tiny_two{
+        position: absolute;
+        top: -23px;
+        left: -15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="tiny_one">
+        <button>x</button>
+      </div>
+    </div>
+
+    <div class="box2"></div>
+
+    <div class="box3">
+      <div><button class="tiny_two">x</button></div>
+    </div>
+  </body>
+</html>

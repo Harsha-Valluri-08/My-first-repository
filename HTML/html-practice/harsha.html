@@ -1,5 +1,35 @@
-
-<table>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Using Java Script</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: arial;
+        }
+        img{
+            border-radius: 50px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.8) ;
+        }
+        p{
+            color: gray;
+        }
+        .parent{
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .child{
+            position: absolute;
+            top: 50px;
+            color: blue;
+        }
+    </style>
+</head>
+    <body>
+    <table>
     <tr>
         <th>Name</th>
         <th>Age</th>
@@ -9,11 +39,16 @@
         <td>17</td>
     </tr>
 </table>
-<h2>This is html</h2>
+<h1>This is html</h1>
+<div class="parent">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTio5xRrEcSDDIbvCF9Th49tTz-8zk3wThwiQ&s" alt="BMw" width="500">
+    <div class='child'>M4</div>
+</div>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTio5xRrEcSDDIbvCF9Th49tTz-8zk3wThwiQ&s" alt="BMW" 
-width="500">
 
-<p> Hi! well come to the python<a href="https://www.python.org">program</a></p>
+<p> Hi! well come to the python <a href="/HTML/html-practice/forms.html">program</a></p>
 <p>It contains lots of fun while reading</p>
 <p>H<sub>2</sub>o</p>
+</body>
+<script src="/HTML/JS/first.js"></script>
+</html>

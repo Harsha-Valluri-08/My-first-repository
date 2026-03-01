@@ -1,5 +1,6 @@
             body{
               padding-top: 80px;
+              padding-left: 100px;
             }
             div {
               font-family: arial;
@@ -43,4 +44,18 @@
               grid-template-columns: 1fr 1fr 1fr;
               row-gap: 40px;
               column-gap: 50px;
+            }
+            .picture{
+              position: relative;
+            }
+            .timer{
+              position: absolute;
+              font-family: arial;
+              font-size: 14px;
+              bottom: 15px;
+              right: 5px;
+              background-color: black;
+              color: white;
+              padding: 5px;
+              border-radius: 5px;
             }
