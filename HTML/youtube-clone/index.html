@@ -1,141 +1,172 @@
 <!DOCTYPE html>
 <html>
-      <head>
-        <title>Youtube clone</title>
-        <link rel="stylesheet" href="body.css">
-        <link rel="stylesheet" href="header.css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="left-section">
-                <img src="../images/hamburger-menu.svg" alt="" class="hambuger">
-                <img src="../images/youtube-logo.svg" alt="" class="youtube-logo">
+
+<head>
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="side-bar.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="left-section">
+            <img src="../images/hamburger-menu.svg" alt="" class="hambuger">
+            <img src="../images/youtube-logo.svg" alt="" class="youtube-logo">
+        </div>
+
+        <div class="middle-section">
+            <label for="search-input"></label>
+                <input type="text" placeholder="search""><div class="search-icon"><img src=" ../images/search.svg" class="search" id="search-input">
+                <div class="tool-tip">Search</div></div>
+                <button class="voice-button">
+                    <img src=" ../images/voice-search-icon.svg" class="voice" alt="">
+                    <div class="tool-tip">Voice</div>
+                </button>
+        </div>  
+        <div class="right-section">
+            <button class="button">
+                <img src="../images/upload.svg" alt="" class="upload">
+                <div class="tool-tip">Create</div>
+            </button>
+            <button class="button">
+                <img src="../images/youtube-apps.svg" class="apps" alt="">
+                <div class="tool-tip">Apps<div>
+            </button>
+            <button class="button">
+                <img src="../images/notifications.svg" class="notifi" alt="">
+                <div class="tool-tip">Notification</div>
+            </button>
+        </div>
+    </div>
+    <div class="side-bar">
+        <div class="side-icons"><img src="/HTML/images/side-bar-images/home.svg" alt="">
+        <div class="tip">Home</div>
+        </div>
+        <div class="side-icons"><img src="/HTML/images/side-bar-images/explore.svg" alt="">
+        <div class="tip">Explore</div>
+        </div>
+        <div class="side-icons"><img src="/HTML/images/side-bar-images/subscriptions.svg" alt="">
+        <div class="tip">Subscriptions</div>
+        </div>
+        <div class="side-icons"><img src="/HTML/images/side-bar-images/originals.svg" alt="">
+        <div class="tip">Originals</div>
+        </div>
+        <div class="side-icons"><img src="/HTML/images/side-bar-images/youtube-music.svg" alt="">
+        <div class="tip">Youtube Music</div>
+        </div>
+        <div class="side-icons"><img src="/HTML/images/side-bar-images/library.svg" alt="">
+        <div class="tip">Library</div>
+        </div>
+    </div>
+
+    <div class="Main-container">
+
+        <div class="size-for-the-container">
+            <div class="picture">
+                <div class="timer">12:09</div>
+                <img class="thumbnail" src="../images/dragon-ball.jpg" alt="image">
             </div>
-            <div class="middle-section">
-                <label for="search-input"></label>
-                <input type="text" placeholder="search""><img src="../images/search.svg" class="search" id="search-input alt="">
-                <button>
-                    <img src="../images/voice-search-icon.svg" class="voice" alt="">
-                </button>
-            </div>
-            <div class="right-section">
-                <button>
-                    <img src="../images/upload.svg" alt="" class="upload">
-                </button>
-                <button>
-                    <img src="../images/youtube-apps.svg" class="apps" alt="">
-                </button>
-                <button>
-                    <img src="../images/notifications.svg" class="notifi" alt="">
-                </button>
+            <div class="video-details">
+                <div class="channel-profile-container">
+                    <img class="channel-profile" src="../images/leveling.jpg" alt="image">
+                </div>
+                <div class="video-info-container">
+                    <p class="video-info">Never waste your time</p>
+                    <p class="video-info-details">Valluri</p>
+                    <p class="video-info-details">3.4M views . 6 months ago</p>
+                </div>
             </div>
         </div>
 
-        <div class="Main-container">
-
-            <div class="size-for-the-container">
-                <div class="picture">
-                    <div class="timer">12:09</div>
-                    <img class="thumbnail" src="../images/dragon-ball.jpg" alt="image">
+        <div class="size-for-the-container">
+            <div class="picture">
+                <div class="timer">9:01</div>
+                <img class="thumbnail" src="../images/leveling.jpg" alt="image">
+            </div>
+            <div class="video-details">
+                <div class="channel-profile-container">
+                    <img class="channel-profile" src="../images/dragon-ball.jpg" alt="image">
                 </div>
-                <div class="video-details">
-                    <div class="channel-profile-container">
-                        <img class="channel-profile" src="../images/leveling.jpg" alt="image">        
-                    </div>
-                    <div class="video-info-container">
-                        <p class="video-info">Never waste your time</p>
-                        <p class="video-info-details">Valluri</p>
-                        <p class="video-info-details">3.4M views . 6 months ago</p>
-                    </div>
+                <div class="video-info-container">
+                    <p class="video-info">Sometimes later Becomes Never <em>Do It Now</em></p>
+                    <p class="video-info-details">Harsha</p>
+                    <p class="video-info-details">5M views . 9 months ago</p>
                 </div>
             </div>
-            
-            <div class="size-for-the-container">
-                <div class="picture">
-                    <div class="timer">9:01</div>
-                    <img class="thumbnail" src="../images/leveling.jpg" alt="image">
-                </div>
-                <div class="video-details">
-                    <div class="channel-profile-container">
-                        <img class="channel-profile" src="../images/dragon-ball.jpg" alt="image">        
-                    </div>
-                    <div class="video-info-container">
-                        <p class="video-info">Sometimes later Becomes Never <em>Do It Now</em></p>
-                        <p class="video-info-details">Harsha</p>
-                        <p class="video-info-details">5M views . 9 months ago</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="size-for-the-container">
-                <div class="picture">
-                    <div class="timer">12:09</div>
-                    <img class="thumbnail" src="../images/dragon-ball.jpg" alt="image">
-                </div>
-                <div class="video-details">
-                    <div class="channel-profile-container">
-                        <img class="channel-profile" src="../images/leveling.jpg" alt="image">        
-                    </div>
-                    <div class="video-info-container">
-                        <p class="video-info">Never waste your time</p>
-                        <p class="video-info-details">Valluri</p>
-                        <p class="video-info-details">3.4M views . 6 months ago</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="size-for-the-container">
-                <div class="picture">
-                    <div class="timer">9:01</div>
-                    <img class="thumbnail" src="../images/leveling.jpg" alt="image">
-                </div>
-                <div class="video-details">
-                    <div class="channel-profile-container">
-                        <img class="channel-profile" src="../images/dragon-ball.jpg" alt="image">        
-                    </div>
-                    <div class="video-info-container">
-                        <p class="video-info">Sometimes later Becomes Never <em>Do It Now</em></p>
-                        <p class="video-info-details">Harsha</p>
-                        <p class="video-info-details">5M views . 9 months ago</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="size-for-the-container">
-                <div class="picture">
-                    <div class="timer">12:09</div>
-                    <img class="thumbnail" src="../images/dragon-ball.jpg" alt="image">
-                </div>
-                <div class="video-details">
-                    <div class="channel-profile-container">
-                        <img class="channel-profile" src="../images/leveling.jpg" alt="image">        
-                    </div>
-                    <div class="video-info-container">
-                        <p class="video-info">Never waste your time</p>
-                        <p class="video-info-details">Valluri</p>
-                        <p class="video-info-details">3.4M views . 6 months ago</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="size-for-the-container">
-                <div class="picture">
-                    <div class="timer">9:01</div>
-                    <img class="thumbnail" src="../images/leveling.jpg" alt="image">
-                </div>
-                <div class="video-details">
-                    <div class="channel-profile-container">
-                        <img class="channel-profile" src="../images/dragon-ball.jpg" alt="image">        
-                    </div>
-                    <div class="video-info-container">
-                        <p class="video-info">Sometimes later Becomes Never <em>Do It Now</em></p>
-                        <p class="video-info-details">Harsha</p>
-                        <p class="video-info-details">5M views . 9 months ago</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
-        
-    </body>
+
+        <div class="size-for-the-container">
+            <div class="picture">
+                <div class="timer">12:09</div>
+                <img class="thumbnail" src="../images/dragon-ball.jpg" alt="image">
+            </div>
+            <div class="video-details">
+                <div class="channel-profile-container">
+                    <img class="channel-profile" src="../images/leveling.jpg" alt="image">
+                </div>
+                <div class="video-info-container">
+                    <p class="video-info">Never waste your time</p>
+                    <p class="video-info-details">Valluri</p>
+                    <p class="video-info-details">3.4M views . 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="size-for-the-container">
+            <div class="picture">
+                <div class="timer">9:01</div>
+                <img class="thumbnail" src="../images/leveling.jpg" alt="image">
+            </div>
+            <div class="video-details">
+                <div class="channel-profile-container">
+                    <img class="channel-profile" src="../images/dragon-ball.jpg" alt="image">
+                </div>
+                <div class="video-info-container">
+                    <p class="video-info">Sometimes later Becomes Never <em>Do It Now</em></p>
+                    <p class="video-info-details">Harsha</p>
+                    <p class="video-info-details">5M views . 9 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="size-for-the-container">
+            <div class="picture">
+                <div class="timer">12:09</div>
+                <img class="thumbnail" src="../images/dragon-ball.jpg" alt="image">
+            </div>
+            <div class="video-details">
+                <div class="channel-profile-container">
+                    <img class="channel-profile" src="../images/leveling.jpg" alt="image">
+                </div>
+                <div class="video-info-container">
+                    <p class="video-info">Never waste your time</p>
+                    <p class="video-info-details">Valluri</p>
+                    <p class="video-info-details">3.4M views . 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="size-for-the-container">
+            <div class="picture">
+                <div class="timer">9:01</div>
+                <img class="thumbnail" src="../images/leveling.jpg" alt="image">
+            </div>
+            <div class="video-details">
+                <div class="channel-profile-container">
+                    <img class="channel-profile" src="../images/dragon-ball.jpg" alt="image">
+                </div>
+                <div class="video-info-container">
+                    <p class="video-info">Sometimes later Becomes Never <em>Do It Now</em></p>
+                    <p class="video-info-details">Harsha</p>
+                    <p class="video-info-details">5M views . 9 months ago</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
 </html>

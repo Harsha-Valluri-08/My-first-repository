@@ -34,6 +34,38 @@
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+.middle-section .voice-button{
+    position: relative;
+}
+.voice-button .tool-tip,
+.search-icon .tool-tip,
+.button .tool-tip
+{
+    position: absolute;
+    bottom: -30px;
+    background-color: rgb(77, 58, 58);
+    padding: 4px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: arial;
+    border-radius: 3px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.25s, bottom 0.25s;
+}
+.search-icon:hover .tool-tip,
+.button:hover .tool-tip{
+    bottom: -23px;
+
+}
+.voice-button:hover .tool-tip,
+.search-icon:hover .tool-tip,
+.button:hover .tool-tip
+{
+    opacity: 1;
 }
 input{
     width: 80%;

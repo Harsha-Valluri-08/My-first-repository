@@ -1,0 +1,30 @@
+.side-bar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  width: 80px;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0px 2px 1px rgba(0,0,0,0.5);
+}
+.side-icons{
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 1s,border-radius 1s;
+}
+.side-icons:hover{
+  background-color: rgb(185, 177, 177);
+  border-radius: 10px;
+}
+.side-icons img{
+  width: 40px;
+}
+.tip{
+  font-family: arial;
+  font-size: 10px;
+}
