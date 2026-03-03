@@ -28,3 +28,16 @@
   font-family: arial;
   font-size: 10px;
 }
+@media(max-width: 440px){
+  .side-bar{
+  position: fixed;
+  bottom: 0;
+  left: 0;    
+  right: 0;
+  top: 60px;
+  width: 80px;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0px 2px 1px rgba(0,0,0,0.5);
+}
+}
