@@ -41,6 +41,7 @@
 
             .Main-container {
               display: grid;
+              width: 100%;
               grid-template-columns: 1fr 1fr 1fr;
               row-gap: 40px;
               column-gap: 50px;
@@ -66,9 +67,8 @@
             }
           }
           @media(max-width: 440px){
-            .Main-container {
+            .Main-container{
               display: grid;
               grid-template-columns: 1fr;
           }
-          
         }
