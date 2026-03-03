@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hover effects using positions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px; 
+      }
+      .main-container{
+        width: 100%;
+        
+      }
+      .picture img{
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 10px;
+      }
+      .content{
+        display: grid;
+        grid-template-columns: 45px 1fr;
+        gap: 15px;
+      }
+      .icons img{
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        border-radius: 23px;
+      }
+      .icons,.content-lines{
+        display: inline-block;
+      }
+      p{
+        margin: 0;
+        line-height: 25px;
+        font-family: arial;
+      }
+      .video-title{
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .video-details{
+        font-size: 12px;
+        color: rgb(116, 116, 116);
+      }
+      .icons{
+        position: relative;
+      }
+      .hover{
+        display: grid;
+        grid-template-columns: 45px 2fr;
+        padding: 10px;
+        align-items: center;
+        bottom: -45px;
+        left: 20px;
+        gap: 10px;
+        position: absolute;
+        background-color: whitesmoke;
+        pointer-events: none;
+        opacity: 0;
+        border-radius: 10px;
+        transition:opacity 0.25s;
+      }
+      .icons:hover .hover{
+        opacity: 1;
+      }
+      .hover-content p{
+        white-space: nowrap;
+      }
+      @media(max-width: 400px){
+        body{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px; 
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="picture">
+        <img src="/HTML/images/dragon-ball.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="icons">
+          <img src="/HTML/images/leveling.jpg" alt="">
+          <div class="hover">
+            <div class="hover-icon">
+              <img src="/HTML/images/leveling.jpg" alt="">
+            </div>
+            <div class="hover-content">
+               <p><b>Awake</b></p>
+               <p>9M subscribers</p>
+            </div>
+        </div>
+      </div>
+        <div class="content-lines">
+          <p class="video-title">Never waste your time</p>
+          <p class="video-details">Valluri</p>
+          <p class="video-details">3.4M views . 6 months ago</p>
+        </div>
+      </div>
+    </div>
+
+        <div class="main-container">
+      <div class="picture">
+        <img src="/HTML/images/leveling.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="icons">
+          <img src="/HTML/images/dragon-ball.jpg" alt="">
+          <div class="hover">
+            <div class="hover-icon">
+              <img src="/HTML/images/dragon-ball.jpg" alt="">
+            </div>
+            <div class="hover-content">
+               <p><b>Buddy</b></p>
+               <p>20M subscribers</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-lines">
+          <p class="video-title">It's always on you, Be focused for a while</p>
+          <p class="video-details">Harsha</p>
+          <p class="video-details">9M views . 2 months ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
